@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Empleados;
+use App\Models\Empresas;
 use Illuminate\Http\Request;
 
-class EmpleadosController extends Controller
+class EmpresasController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class EmpleadosController extends Controller
      */
     public function index()
     {
-        return view('empleados.index');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class EmpleadosController extends Controller
      */
     public function create()
     {
-        return view('empleados.create');
+        //
     }
 
     /**
@@ -41,10 +41,10 @@ class EmpleadosController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Empleados  $empleados
+     * @param  \App\Models\Empresas  $empresas
      * @return \Illuminate\Http\Response
      */
-    public function show(Empleados $empleados)
+    public function show(Empresas $empresas)
     {
         //
     }
@@ -52,22 +52,22 @@ class EmpleadosController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Empleados  $empleados
+     * @param  \App\Models\Empresas  $empresas
      * @return \Illuminate\Http\Response
      */
-    public function edit(Empleados $empleados)
+    public function edit(Empresas $empresas)
     {
-        return view('empleados.edit');
+        //
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Empleados  $empleados
+     * @param  \App\Models\Empresas  $empresas
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Empleados $empleados)
+    public function update(Request $request, Empresas $empresas)
     {
         //
     }
@@ -75,10 +75,10 @@ class EmpleadosController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Empleados  $empleados
+     * @param  \App\Models\Empresas  $empresas
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Empleados $empleados)
+    public function destroy(Empresas $empresas)
     {
         //
     }
